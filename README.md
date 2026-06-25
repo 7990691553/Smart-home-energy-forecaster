@@ -45,8 +45,10 @@ pip install pandas numpy scikit-learn streamlit
 streamlit run app.py
 
 (Note: A pre-trained model energy_model.pkl is included. To train from scratch, run python train_model.py before starting the app).
+```
+---
 
-📁 Repository Structure
+## 📁 Repository Structure
 
 📦 smart-home-energy-forecaster
  ┣ 📜 app.py               # Streamlit frontend and prediction logic
@@ -55,7 +57,7 @@ streamlit run app.py
  ┣ 📜 .gitignore           # Git ignore configurations
  ┗ 📜 README.md            # Project documentation
 
- 🔮 Future Scope
+## 🔮 Future Scope
 Integration of real-time API weather forecasting.
 
 Cost-analysis module based on dynamic regional electricity pricing.
