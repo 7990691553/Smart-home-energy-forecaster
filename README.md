@@ -50,12 +50,14 @@ streamlit run app.py
 
 ## 📁 Repository Structure
 
+```text
 📦 smart-home-energy-forecaster
- ┣ 📜 app.py               # Streamlit frontend and prediction logic
- ┣ 📜 train_model.py       # Data processing and ML training script
- ┣ 📜 energy_model.pkl     # Serialized Random Forest model
- ┣ 📜 .gitignore           # Git ignore configurations
- ┗ 📜 README.md            # Project documentation
+├── 📜 app.py               # Streamlit frontend and prediction logic
+├── 📜 train_model.py       # Data processing and ML training script
+├── 📜 energy_model.pkl     # Serialized Random Forest model
+├── 📜 .gitignore           # Git ignore configurations
+└── 📜 README.md            # Project documentation
+```
 
 ## 🔮 Future Scope
 Integration of real-time API weather forecasting.
